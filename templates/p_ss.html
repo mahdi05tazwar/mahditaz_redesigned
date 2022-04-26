@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" class="pagesettings">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="keywords" content="mahditaz, pythonanywhere, mahditaz.pythonanywhere.com website">
+        <meta name="description" content="Hello people, this is Mahdi Tajwar Raeed.">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800" rel="stylesheet"> 
+        <link rel="stylesheet" href="{{ url_for('static', filename = 'styles.css')}}">
+        <title>Pong-Pong Screenshots</title>
+    </head>
+    <style>
+    </style>
+    <body class="bodytagsettings">
+        <div>
+            <ul class = menubar>
+            <li class="menulist"><a class="links" href="index">Home</a></li>
+            <li class="menulist"><a class = "links" href="about">About</a></li>
+            <li class="menulist"><a class = "links" href="contact">Contact</a></li>
+            </ul>
+        </div>
+        
+        <div>
+            <h1 class = titles>Pong-Pong Screenshots</h1>
+        </div>
+
+        <div class = body>
+            <img src="{{ url_for('static', filename = 'pong.png')}}" alt="Image can't be loaded.">
+            <img src="{{ url_for('static', filename = 'pong2.png')}}" alt="Image can't be loaded.">
+        </div>
+            
+    </body>
+
+</html>

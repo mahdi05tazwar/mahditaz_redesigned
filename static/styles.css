@@ -1,0 +1,13 @@
+.menubar {background-color: black; font-family: Montserrat, Helvetica, sans-serif; font-weight: 300; font-size: 14px; text-align: center; padding: 10px;}
+.menulist {display: inline; padding: 5px;}
+
+.links {text-decoration: none; color: yellow;}
+.titles {font-family: Montserrat;}
+.body {font-family: Montserrat; font-size : 16px;}
+.body2 {font-family: Montserrat; font-size : 18px;}
+.conclusion{font-family: Helvetica, Arial, sans-serif;}
+
+.spanbuttons {padding : 7px; background-color: black;}
+.otherlinks {text-decoration: none; color: white; font-size: 16px;}
+
+.pagesettings {background-image: linear-gradient(to right, rgb(4, 110, 248), rgba(76, 3, 247, 0.699));}
